@@ -15,7 +15,11 @@
   <img align="center" alt="bkarln-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="bkarln-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 </div>
- 
+
+<div align="center">
+  ![Snake animation](https://github.com/bkarln/bkarln/blob/output/github-contribution-grid-snake.svg)
+</div>
+
 ## Redes sociais e contato:
 
 <div> 
@@ -25,6 +29,4 @@
   <a href="https://instagram.com/bkrln" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </div>
 
-<div align="center">
-  ![Snake animation](https://github.com/bkarln/bkarln/blob/output/github-contribution-grid-snake.svg)
-</div>
+
