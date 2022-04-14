@@ -6,6 +6,10 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bkarln&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
+##
+
+  ![Snake animation](https://github.com/bkarln/bkarln/blob/output/github-contribution-grid-snake.svg)
+
 <div style="display: inline_block"><br>
   <img align="center" alt="bkarln-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="bkarln-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
@@ -15,10 +19,6 @@
   <img align="center" alt="bkarln-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="bkarln-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 </div>
-
-##
-
-  ![Snake animation](https://github.com/bkarln/bkarln/blob/output/github-contribution-grid-snake.svg)
 
 ## Redes sociais e contato:
 
