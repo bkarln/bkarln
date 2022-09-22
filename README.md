@@ -1,4 +1,4 @@
-## Hi, I'm Karolaine :) Welcome to my GitHub Profile!
+## Welcome to my GitHub Profile!
 
 <div>
   <a href="https://github.com/bkarln">
