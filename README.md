@@ -14,7 +14,8 @@
   <img align="center" alt="bkarln-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="bkarln-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 </div>
-## Redes sociais e contato:
+
+Redes sociais e contato:
 
 <div> 
   <a href= mailto:"karolaine.b@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
