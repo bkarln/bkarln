@@ -5,18 +5,6 @@
 
 ---
 
-### ⚙️ Status do perfil em tempo real
-
-![Karolaine's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bkarln&show_icons=true&theme=radical)
-
----
-
-### 📝 Últimos commits
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=bkarln&theme=radical)
-
----
-
 ### 🚀 Linguagens utilizadas
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bkarln&layout=compact&theme=radical)
@@ -27,6 +15,17 @@
 
 <img src="https://github-contribution-stats.vercel.app/api/?username=bkarln" />
 
+---
+
+### ⚙️ Status do perfil em tempo real
+
+![Karolaine's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bkarln&show_icons=true&theme=radical)
+
+---
+
+### 📝 Últimos commits
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=bkarln&theme=radical)
 
 ---
 
