@@ -2,7 +2,7 @@ name: Atualizar commits por repositório
 
 on:
   schedule:
-    - cron: "0 12 * * *"  # roda todo dia às 12h
+    - cron: "0 12 * * *"  # roda todo dia às 12h (UTC)
   workflow_dispatch:
 
 jobs:
@@ -25,20 +25,30 @@ jobs:
           echo "### 📦 Commits por repositório" > commits.md
           echo "" >> commits.md
 
-          repos=$(curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/users/$USERNAME/repos?per_page=100 | jq -r '.[].name')
+          repos=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/users/$USERNAME/repos?per_page=100" | jq -r '.[].name')
 
           for repo in $repos; do
-            count=$(curl -s -I -H "Authorization: token $GH_TOKEN" https://api.github.com/repos/$USERNAME/$repo/commits?per_page=1 \
+            count=$(curl -s -I -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/commits?per_page=1" \
               | grep -i ^Link \
               | sed -n 's/.*page=\([0-9]*\).*rel="last".*/\1/p')
-
             echo "- **$repo**: ${count:-1} commits" >> commits.md
           done
 
       - name: Atualizar README.md
         run: |
-          sed -i '/<!--COMMIT_SECTION_START-->/,/<!--COMMIT_SECTION_END-->/c\
-<!--COMMIT_SECTION_START-->\n'"$(cat commits.md)"'\n<!--COMMIT_SECTION_END-->' README.md
+          start='<!--COMMIT_SECTION_START-->'
+          end='<!--COMMIT_SECTION_END-->'
+
+          echo "$start" > new_commits.md
+          cat commits.md >> new_commits.md
+          echo "$end" >> new_commits.md
+
+          awk -v start="$start" -v end="$end" '
+            BEGIN {in_block=0}
+            $0 == start {print; in_block=1; while ((getline line < "new_commits.md") > 0) print line; next}
+            $0 == end {in_block=0; next}
+            !in_block {print}
+          ' README.md > README_temp.md && mv README_temp.md README.md
 
       - name: Commit e push
         run: |
