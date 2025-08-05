@@ -3,6 +3,9 @@
   <em>Desenvolvedora, designer e criadora de experiências digitais</em>
 </p>
 
+<!--COMMIT_SECTION_START-->
+<!--COMMIT_SECTION_END-->
+
 ---
 
 ### 🚀 Linguagens utilizadas
