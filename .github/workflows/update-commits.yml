@@ -52,7 +52,7 @@ jobs:
 
       - name: Commit e push
         run: |
-          git config --local user.email "karolaine@users.noreply.github.com"
+          git config --local user.email "karolaine.b@gmail.com"
           git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "Atualiza métrica de commits por repositório"
