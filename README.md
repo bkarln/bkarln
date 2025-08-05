@@ -11,15 +11,15 @@
 
 ---
 
-### 🚀 Linguagens utilizadas
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bkarln&layout=compact&theme=radical)
-
----
-
 ### 📝 Últimos commits
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=bkarln&theme=radical)
+
+---
+
+### 🚀 Linguagens utilizadas
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bkarln&layout=compact&theme=radical)
 
 ---
 
