@@ -22,17 +22,44 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: bkarln
         run: |
-          echo "### 📦 Commits por repositório" > commits.md
-          echo "" >> commits.md
-
+          echo '<!--COMMIT_SECTION_START-->' > commits.md
+          echo '### 📦 Commits por repositório' >> commits.md
+          echo '<div align="center">' >> commits.md
+          echo '<table>' >> commits.md
+          
           repos=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/users/$USERNAME/repos?per_page=100" | jq -r '.[].name')
-
+          
+          row_count=0
           for repo in $repos; do
             count=$(curl -s -I -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/commits?per_page=1" \
               | grep -i ^Link \
               | sed -n 's/.*page=\([0-9]*\).*rel="last".*/\1/p')
-            echo "- **$repo**: ${count:-1} commits" >> commits.md
+          
+            color="blue"  # 🌈 você pode trocar por lógicas como nome do repo ou quantidade
+          
+            if [[ $((row_count % 3)) == 0 ]]; then
+              echo '<tr>' >> commits.md
+            fi
+          
+            echo "<td align=\"center\">" >> commits.md
+            echo "<strong>📁 $repo</strong><br/>" >> commits.md
+            echo "<img src=\"https://img.shields.io/badge/Commits-${count:-1}-$color?style=for-the-badge\"/>" >> commits.md
+            echo "</td>" >> commits.md
+          
+            row_count=$((row_count + 1))
+            if [[ $((row_count % 3)) == 0 ]]; then
+              echo '</tr>' >> commits.md
+            fi
           done
+          
+          # Fecha a última linha se não foi finalizada
+          if [[ $((row_count % 3)) != 0 ]]; then
+            echo '</tr>' >> commits.md
+          fi
+          
+          echo '</table>' >> commits.md
+          echo '</div>' >> commits.md
+          echo '<!--COMMIT_SECTION_END-->' >> commits.md
 
       - name: Atualizar README.md
         run: |
