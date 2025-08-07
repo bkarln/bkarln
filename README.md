@@ -3,10 +3,10 @@
   <em>Desenvolvedora, designer e criadora de experiências digitais</em>
 </p>
 
+---
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
-### 📦 Commits por repositório
 <div align="center">
 <table>
 <tr>
@@ -105,30 +105,6 @@
 <!--COMMIT_SECTION_END-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
-
----
-
-### 🚀 Linguagens utilizadas
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bkarln&layout=compact&theme=radical)
-
----
-
-### 📊 Métricas de contribuições
-
-<img src="https://github-contribution-stats.vercel.app/api/?username=bkarln" />
-
----
-
-### ⚙️ Status do perfil em tempo real
-
-![Karolaine's GitHub Stats](https://github-readme-stats.vercel.app/api?username=bkarln&show_icons=true&theme=radical)
-
----
-
-### 📝 Últimos commits
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=bkarln&theme=radical)
 
 ---
 
