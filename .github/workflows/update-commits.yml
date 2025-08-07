@@ -23,7 +23,6 @@ jobs:
           USERNAME: bkarln
         run: |
           echo '<!--COMMIT_SECTION_START-->' > commits.md
-          echo '### 📦 Commits por repositório' >> commits.md
           echo '<div align="center">' >> commits.md
           echo '<table>' >> commits.md
 
@@ -38,13 +37,14 @@ jobs:
             langs=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/languages" | jq -r 'keys | join(", ")')
 
             color="blue"
+            repo_url="https://github.com/$USERNAME/$repo"
 
             if [[ $((row_count % 3)) == 0 ]]; then
               echo '<tr>' >> commits.md
             fi
 
             echo "<td align=\"center\">" >> commits.md
-            echo "<strong>📁 $repo</strong><br/>" >> commits.md
+            echo "<strong><a href=\"$repo_url\" target=\"_blank\">📁 $repo</a></strong><br/>" >> commits.md
             echo "<img src=\"https://img.shields.io/badge/Commits-${count:-1}-$color?style=for-the-badge\"/><br/>" >> commits.md
             echo "<sub>🧠 ${langs:-Sem linguagem}</sub>" >> commits.md
             echo "</td>" >> commits.md
