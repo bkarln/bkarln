@@ -17,7 +17,7 @@ jobs:
       - name: Instalar dependências
         run: sudo apt-get install jq
 
-      - name: Gerar métrica de commits por repositório
+      - name: Gerar métrica de commits por repositório com linguagens
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: bkarln
@@ -26,37 +26,39 @@ jobs:
           echo '### 📦 Commits por repositório' >> commits.md
           echo '<div align="center">' >> commits.md
           echo '<table>' >> commits.md
-          
+
           repos=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/users/$USERNAME/repos?per_page=100" | jq -r '.[].name')
-          
+
           row_count=0
           for repo in $repos; do
             count=$(curl -s -I -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/commits?per_page=1" \
               | grep -i ^Link \
               | sed -n 's/.*page=\([0-9]*\).*rel="last".*/\1/p')
-          
-            color="blue"  # 🌈 você pode trocar por lógicas como nome do repo ou quantidade
-          
+
+            langs=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/languages" | jq -r 'keys | join(", ")')
+
+            color="blue"
+
             if [[ $((row_count % 3)) == 0 ]]; then
               echo '<tr>' >> commits.md
             fi
-          
+
             echo "<td align=\"center\">" >> commits.md
             echo "<strong>📁 $repo</strong><br/>" >> commits.md
-            echo "<img src=\"https://img.shields.io/badge/Commits-${count:-1}-$color?style=for-the-badge\"/>" >> commits.md
+            echo "<img src=\"https://img.shields.io/badge/Commits-${count:-1}-$color?style=for-the-badge\"/><br/>" >> commits.md
+            echo "<sub>🧠 ${langs:-Sem linguagem}</sub>" >> commits.md
             echo "</td>" >> commits.md
-          
+
             row_count=$((row_count + 1))
             if [[ $((row_count % 3)) == 0 ]]; then
               echo '</tr>' >> commits.md
             fi
           done
-          
-          # Fecha a última linha se não foi finalizada
+
           if [[ $((row_count % 3)) != 0 ]]; then
             echo '</tr>' >> commits.md
           fi
-          
+
           echo '</table>' >> commits.md
           echo '</div>' >> commits.md
           echo '<!--COMMIT_SECTION_END-->' >> commits.md
