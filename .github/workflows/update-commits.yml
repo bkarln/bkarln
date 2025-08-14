@@ -44,7 +44,7 @@ jobs:
             fi
 
             echo "<td align=\"center\">" >> commits.md
-            echo "<strong><a href=\"$repo_url\" target=\"_blank\">📁 $repo</a></strong><br/>" >> commits.md
+            echo "<a href=\"$repo_url\" target=\"_blank\">$repo</a><br/>" >> commits.md
             echo "<img src=\"https://img.shields.io/badge/Commits-${count:-1}-$color?style=for-the-badge\"/><br/>" >> commits.md
             echo "<sub>🧠 ${langs:-Sem linguagem}</sub>" >> commits.md
             echo "</td>" >> commits.md
