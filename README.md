@@ -34,7 +34,7 @@
 </td>
 <td align="center">
 <a href="https://github.com/bkarln/bkarln" target="_blank">bkarln</a><br/>
-<img src="https://img.shields.io/badge/Commits-74-blue?style=for-the-badge"/><br/>
+<img src="https://img.shields.io/badge/Commits-75-blue?style=for-the-badge"/><br/>
 <sub>🧠 Sem linguagem</sub>
 </td>
 <td align="center">
@@ -101,17 +101,22 @@
 <sub>🧠 CSS, HTML, JavaScript</sub>
 </td>
 <td align="center">
+<a href="https://github.com/bkarln/Synergy" target="_blank">Synergy</a><br/>
+<img src="https://img.shields.io/badge/Commits-1627-blue?style=for-the-badge"/><br/>
+<sub>🧠 CSS, HTML, JavaScript, Pug</sub>
+</td>
+<td align="center">
 <a href="https://github.com/bkarln/Teste" target="_blank">Teste</a><br/>
 <img src="https://img.shields.io/badge/Commits-4-blue?style=for-the-badge"/><br/>
 <sub>🧠 Java</sub>
 </td>
+</tr>
+<tr>
 <td align="center">
 <a href="https://github.com/bkarln/Typescriptnode-proj" target="_blank">Typescriptnode-proj</a><br/>
 <img src="https://img.shields.io/badge/Commits-1-blue?style=for-the-badge"/><br/>
 <sub>🧠 TypeScript</sub>
 </td>
-</tr>
-<tr>
 <td align="center">
 <a href="https://github.com/bkarln/uba-studio" target="_blank">uba-studio</a><br/>
 <img src="https://img.shields.io/badge/Commits-11-blue?style=for-the-badge"/><br/>
@@ -122,6 +127,8 @@
 </div>
 <!--COMMIT_SECTION_END-->
 <!--COMMIT_SECTION_END-->
+<!--COMMIT_SECTION_START-->
+<!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
