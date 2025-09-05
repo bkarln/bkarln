@@ -2,7 +2,7 @@ name: Atualizar commits por repositório
 
 on:
   schedule:
-    - cron: "0 12 * * *"  # roda todo dia às 12h (UTC)
+    - cron: "30 13 * * *"  # roda todo dia às 12h (UTC)
   workflow_dispatch:
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
 
       - name: Gerar métrica de commits por repositório com linguagens
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PROFILEWORKFLOW }}
           USERNAME: bkarln
         run: |
           echo '<!--COMMIT_SECTION_START-->' > commits.md
