@@ -2,7 +2,7 @@ name: Atualizar commits por repositório
 
 on:
   schedule:
-    - cron: "0 14 * * *"  # roda todo dia às 12h (UTC)
+    - cron: "0 12 * * *"  # roda todo dia às 12h (UTC)
   workflow_dispatch:
 
 jobs:
