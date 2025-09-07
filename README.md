@@ -12,7 +12,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/bkarln/bkarln" target="_blank">bkarln</a><br/>
-<img src="https://img.shields.io/badge/Commits-80-blue?style=for-the-badge"/><br/>
+<img src="https://img.shields.io/badge/Commits-81-blue?style=for-the-badge"/><br/>
 <sub>🧠 Sem linguagem</sub>
 </td>
 <td align="center">
@@ -38,17 +38,12 @@
 <sub>🧠 HTML, JavaScript, SCSS</sub>
 </td>
 <td align="center">
-<a href="https://github.com/bkarln/Pythoncode" target="_blank">Pythoncode</a><br/>
-<img src="https://img.shields.io/badge/Commits-1-blue?style=for-the-badge"/><br/>
-<sub>🧠 Python</sub>
-</td>
-</tr>
-<tr>
-<td align="center">
 <a href="https://github.com/bkarln/STEREOtype" target="_blank">STEREOtype</a><br/>
 <img src="https://img.shields.io/badge/Commits-24-blue?style=for-the-badge"/><br/>
 <sub>🧠 CSS, HTML, JavaScript</sub>
 </td>
+</tr>
+<tr>
 <td align="center">
 <a href="https://github.com/bkarln/Synergy" target="_blank">Synergy</a><br/>
 <img src="https://img.shields.io/badge/Commits-1628-blue?style=for-the-badge"/><br/>
@@ -59,11 +54,18 @@
 <img src="https://img.shields.io/badge/Commits-11-blue?style=for-the-badge"/><br/>
 <sub>🧠 HTML, JavaScript</sub>
 </td>
+<td align="center">
+<a href="https://github.com/bkarln/UxCreative" target="_blank">UxCreative</a><br/>
+<img src="https://img.shields.io/badge/Commits-1-blue?style=for-the-badge"/><br/>
+<sub>🧠 CSS, HTML, JavaScript</sub>
+</td>
 </tr>
 </table>
 </div>
 <!--COMMIT_SECTION_END-->
 <!--COMMIT_SECTION_END-->
+<!--COMMIT_SECTION_START-->
+<!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
