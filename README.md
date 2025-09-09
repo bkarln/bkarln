@@ -12,7 +12,7 @@
 <tr>
 <td align="center">
 <a href="https://github.com/bkarln/bkarln" target="_blank">bkarln</a><br/>
-<img src="https://img.shields.io/badge/Commits-82-blue?style=for-the-badge"/><br/>
+<img src="https://img.shields.io/badge/Commits-83-blue?style=for-the-badge"/><br/>
 <sub>🧠 Sem linguagem</sub>
 </td>
 <td align="center">
@@ -56,14 +56,16 @@
 </td>
 <td align="center">
 <a href="https://github.com/bkarln/UxCreative" target="_blank">UxCreative</a><br/>
-<img src="https://img.shields.io/badge/Commits-1-blue?style=for-the-badge"/><br/>
-<sub>🧠 CSS, HTML, JavaScript</sub>
+<img src="https://img.shields.io/badge/Commits-26-blue?style=for-the-badge"/><br/>
+<sub>🧠 CSS, HTML, JavaScript, PHP, SCSS</sub>
 </td>
 </tr>
 </table>
 </div>
 <!--COMMIT_SECTION_END-->
 <!--COMMIT_SECTION_END-->
+<!--COMMIT_SECTION_START-->
+<!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
 <!--COMMIT_SECTION_START-->
