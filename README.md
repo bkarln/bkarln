@@ -1,12 +1,29 @@
 <h1 align="center">👩‍💻 Karolaine Brandelero</h1>
 <p align="center">
-  <em>Desenvolvedora, designer e criadora de experiências digitais</em>
+  <em>Desenvolvedora, designer e criadora de experiências digitais</em><br>
+  <strong>Transformo ideias em interfaces, e bugs em aprendizado.</strong>
 </p>
 
 ---
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
+
+## 🚀 Sobre mim
+
+🎓 Formada em Engenharia de Software pela UTFPR e em TI.</br>
+💼 Desenvolvedora full stack com foco em front-end e experiência em design digital.</br>
+🌐 Apaixonada por criar experiências digitais que conectam pessoas, propósito e tecnologia.</br>
+🧩 Exploradora de ferramentas modernas como Astro, React, SCSS, Pug e TypeScript — com experiência prática em projetos reais utilizando Vue.js, Tailwind, Laravel, Ruby on Rails, C#, Node.js, Python, Docker, AWS e Firebase.</br>
+
+---
+
+## 🕹️ Meu mini game: Code Runner
+
+Jogue como uma versão pixelada de mim mesma correndo por um terminal infinito, desviando de erros de código e coletando commits!
+👉 [Clique para jogar Code Runner](https://bkarln.github.io/bkarln/)
+
+---
+
+## 🧪 Meu workflow de projetos
+
 <div align="center">
 <table>
 <tr>
@@ -62,75 +79,14 @@
 </tr>
 </table>
 </div>
-<!--COMMIT_SECTION_END-->
-<!--COMMIT_SECTION_END-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
-<!--COMMIT_SECTION_START-->
+
+---
+
+## 📫 Onde me encontrar
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Karolaine%20Brandelero-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/seu-perfil)
+[![GitHub](https://img.shields.io/badge/GitHub-bkarln-black?style=for-the-badge&logo=github)](https://github.com/bkarln)
+
+---
+
+> 💬 *“Design é como contar uma história — e eu gosto de histórias que fazem sentido, funcionam bem e são bonitas.”*
