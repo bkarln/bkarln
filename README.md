@@ -84,7 +84,7 @@ Jogue como uma versão pixelada de mim mesma correndo por um terminal infinito, 
 
 ## 📫 Onde me encontrar
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Karolaine%20Brandelero-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/seu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Karolaine%20Brandelero-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/karolaine-brandelero/)</tr>
 [![GitHub](https://img.shields.io/badge/GitHub-bkarln-black?style=for-the-badge&logo=github)](https://github.com/bkarln)
 
 ---

@@ -5,13 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Code Runner – by Karolaine</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .back-link {
+      margin-top: 20px;
+      display: inline-block;
+      background-color: #222;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-family: 'Courier New', monospace;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .back-link:hover {
+      background-color: #444;
+    }
+  </style>
 </head>
 <body onload="document.getElementById('gameCanvas').focus()">
   <h1>👾 Code Runner</h1>
-  <p>Desvie dos bugs e colete commits precionando espaço :)</p>
+  <p>Desvie dos bugs e colete commits pressionando espaço :)</p>
 
   <!-- Canvas do jogo -->
   <canvas id="gameCanvas" width="800" height="400" tabindex="0"></canvas>
+
+  <!-- Link para voltar ao GitHub -->
+  <div>
+    <a class="back-link" href="https://github.com/bkarln/bkarln" target="_blank">← Voltar para meu perfil no GitHub</a>
+  </div>
 
   <!-- Script principal -->
   <script src="game.js"></script>
