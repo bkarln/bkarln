@@ -9,7 +9,7 @@
 ## 🚀 Sobre mim
 
 🎓 Formada em Engenharia de Software pela UTFPR e em TI.</br>
-💼 Desenvolvedora full stack com foco em front-end e experiência em design digital.</br>
+💼 Desenvolvedora back-end/front-end.</br>
 🌐 Apaixonada por criar experiências digitais que conectam pessoas, propósito e tecnologia.</br>
 🧩 Exploradora de ferramentas modernas como Astro, React, SCSS, Pug e TypeScript — com experiência prática em projetos reais utilizando Vue.js, Tailwind, Laravel, Ruby on Rails, C#, Node.js, Python, Docker, AWS e Firebase.</br>
 
