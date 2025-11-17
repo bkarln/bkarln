@@ -15,14 +15,14 @@
 
 ---
 
-## 🕹️ Meu mini game: Code Runner
+## 🕹️ Mini game: Code Runner
 
 Jogue como uma versão pixelada de mim mesma correndo por um terminal infinito, desviando de erros de código e coletando commits!
 👉 [Clique para jogar Code Runner](https://bkarln.github.io/bkarln/)
 
 ---
 
-## 🧪 Meu workflow de projetos
+## 🧪 Workflow de projetos
 
 <div align="center">
 <table>
