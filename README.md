@@ -87,7 +87,3 @@ Jogue como uma versão pixelada de mim mesma correndo por um terminal infinito, 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Karolaine%20Brandelero-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/karolaine-brandelero/)
 [![Behance](https://img.shields.io/badge/Behance-karolbrandelero-0057ff?style=for-the-badge&logo=behance)](https://www.behance.net/karolbrandelero)
 [![GitHub](https://img.shields.io/badge/GitHub-bkarln-black?style=for-the-badge&logo=github)](https://github.com/bkarln)
-
----
-
-> 💬 *“Design é como contar uma história — e eu gosto de histórias que fazem sentido, funcionam bem e são bonitas.”*
