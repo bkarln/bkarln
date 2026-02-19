@@ -5,6 +5,9 @@ on:
     - cron: "0 12 * * *"  # roda todo dia às 12h (UTC)
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -15,7 +18,7 @@ jobs:
           fetch-depth: 0
 
       - name: Instalar dependências
-        run: sudo apt-get install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Gerar métrica de commits por repositório com linguagens
         env:
@@ -30,9 +33,8 @@ jobs:
 
           row_count=0
           for repo in $repos; do
-            count=$(curl -s -I -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/commits?per_page=1" \
-              | grep -i ^Link \
-              | sed -n 's/.*page=\([0-9]*\).*rel="last".*/\1/p')
+            # Contagem de commits mais robusta
+            count=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/commits?per_page=100" | jq 'length')
 
             langs=$(curl -s -H "Authorization: token $GH_TOKEN" "https://api.github.com/repos/$USERNAME/$repo/languages" | jq -r 'keys | join(", ")')
 
@@ -45,7 +47,7 @@ jobs:
 
             echo "<td align=\"center\">" >> commits.md
             echo "<a href=\"$repo_url\" target=\"_blank\">$repo</a><br/>" >> commits.md
-            echo "<img src=\"https://img.shields.io/badge/Commits-${count:-1}-$color?style=for-the-badge\"/><br/>" >> commits.md
+            echo "<img src=\"https://img.shields.io/badge/Commits-${count:-0}-$color?style=for-the-badge\"/><br/>" >> commits.md
             echo "<sub>🧠 ${langs:-Sem linguagem}</sub>" >> commits.md
             echo "</td>" >> commits.md
 
@@ -68,21 +70,13 @@ jobs:
           start='<!--COMMIT_SECTION_START-->'
           end='<!--COMMIT_SECTION_END-->'
 
-          echo "$start" > new_commits.md
-          cat commits.md >> new_commits.md
-          echo "$end" >> new_commits.md
-
-          awk -v start="$start" -v end="$end" '
-            BEGIN {in_block=0}
-            $0 == start {print; in_block=1; while ((getline line < "new_commits.md") > 0) print line; next}
-            $0 == end {in_block=0; next}
-            !in_block {print}
-          ' README.md > README_temp.md && mv README_temp.md README.md
+          sed -i "/$start/,/$end/{ /$start/{p; r commits.md
+          }; /$end/p; d }" README.md
 
       - name: Commit e push
         run: |
           git config --local user.email "karolaine.b@gmail.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Atualiza métrica de commits por repositório"
+          git commit -m "Atualiza métrica de commits por repositório" || echo "Nenhuma alteração para commitar"
           git push
