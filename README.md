@@ -9,9 +9,9 @@
 ## 🚀 Sobre mim
 
 🎓 Formada em Engenharia de Software pela UTFPR e em TI.</br>
-💼 Desenvolvedora back-end/front-end.</br>
+💼 Desenvolvedora back-end/front-end, atualmente focando em Python e Inteligência Artificial.</br>
 🌐 Apaixonada por criar experiências digitais que conectam pessoas, propósito e tecnologia.</br>
-🧩 Exploradora de ferramentas modernas como Astro, React, SCSS, Pug e TypeScript — com experiência prática em projetos reais utilizando Vue.js, Tailwind, Laravel, Ruby on Rails, C#, Node.js, Python, Docker, AWS e Firebase.</br>
+🧩 Exploradora de tecnologias modernas como RAG, LLM, LangChain e embeddings — com experiência prática em projetos reais utilizando Vue.js, Tailwind, Laravel, Ruby on Rails, C#, Node.js, Python, Docker, AWS e Firebase.</br>
 
 ---
 
