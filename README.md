@@ -1,7 +1,6 @@
 <h1 align="center">👩‍💻 Karolaine Brandelero</h1>
 <p align="center">
-  <em>Desenvolvedora, designer e criadora de experiências digitais</em><br>
-  <strong>Transformo ideias em interfaces, e bugs em aprendizado.</strong>
+  <em>Desenvolvedora, designer, líder de grupos multidisciplinares e criadora de experiências digitais.</em><br>
 </p>
 
 ---
