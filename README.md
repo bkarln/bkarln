@@ -1,6 +1,6 @@
 <h1 align="center">👩‍💻 Karolaine Brandelero</h1>
 <p align="center">
-  <em>Desenvolvedora, designer, líder de grupos multidisciplinares e criadora de experiências digitais.</em><br>
+  <em>Desenvolvedora, designer e líder de grupos multidisciplinares.</em><br>
 </p>
 
 ---
